@@ -59,22 +59,9 @@ class Service extends React.Component {
   render( ) {
     return (
       <div>
-        <h2>Topics</h2>
+        <h2>Service</h2>
       </div>
     );
   }
 }
- 
-class Topic extends React.Component {
-  render()  {
-    return (
-      <div>
-        <h3>
-          {this.props.match.params.topicId}
-        </h3>
-      </div>
-    );
-  }
-}
-
 export default App;
